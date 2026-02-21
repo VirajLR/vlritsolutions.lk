@@ -1,0 +1,132 @@
+﻿{
+  "brand": {
+    "name": "VLR IT Solutions",
+    "tagline": "Premium IT solutions for Sri Lankan businesses"
+  },
+  "contact": {
+    "phone": "0770 232 612",
+    "email": "info.vlritsolutions@gmail.com",
+    "address": "No. 756/1, Polhenda Rd, Kohalwila, Kelaniya"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "whatsapp": "",
+    "x": ""
+  },
+  "hero": {
+    "title": "Premium IT Solutions for Modern Businesses",
+    "subtitle": "Web Development • POS Systems • Cloud • Networking • Support",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Our Services",
+    "heroImage": "assets/img/placeholder-hero.svg"
+  },
+  "services": [
+    {
+      "title": "Website Development",
+      "description": "Elegant, fast websites built for conversions and credibility."
+    },
+    {
+      "title": "POS Systems & Billing",
+      "description": "Stable POS and billing workflows with inventory and reports."
+    },
+    {
+      "title": "Mobile App Development",
+      "description": "Premium mobile apps for bookings, delivery, and engagement."
+    },
+    {
+      "title": "Networking & CCTV",
+      "description": "Secure networking, Wi-Fi, and CCTV with islandwide support."
+    },
+    {
+      "title": "Cloud & Hosting",
+      "description": "Reliable cloud hosting, backups, and email with strong security."
+    },
+    {
+      "title": "IT Support & Maintenance",
+      "description": "Fast response, proactive monitoring, and on-site assistance."
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Retail & Showrooms",
+      "bullets": [
+        "POS + inventory automation",
+        "Loyalty and promotions",
+        "Branch reporting"
+      ]
+    },
+    {
+      "title": "Restaurants & Bakeries",
+      "bullets": [
+        "Order and kitchen workflows",
+        "Delivery integration",
+        "Daily sales dashboards"
+      ]
+    },
+    {
+      "title": "Small & Medium Businesses",
+      "bullets": [
+        "Managed IT and secure email",
+        "Reliable branch networking",
+        "Backup and recovery plans"
+      ]
+    },
+    {
+      "title": "Enterprise Custom Software",
+      "bullets": [
+        "Workflow automation",
+        "Custom dashboards",
+        "System integration"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Retail POS Suite",
+      "outcome": "35% faster checkout",
+      "stack": ["POS", "Inventory", "Analytics"],
+      "image": "assets/img/placeholder-project-1.svg"
+    },
+    {
+      "title": "Company Website + Admin Portal",
+      "outcome": "2x lead conversion",
+      "stack": ["Web", "CMS", "Security"],
+      "image": "assets/img/placeholder-project-2.svg"
+    },
+    {
+      "title": "Inventory & Delivery Management",
+      "outcome": "28% fewer stockouts",
+      "stack": ["Mobile", "Cloud", "IoT"],
+      "image": "assets/img/placeholder-project-3.svg"
+    }
+  ],
+  "about": {
+    "text": "VLR IT Solutions is a Colombo-based team delivering premium, secure, and reliable technology for Sri Lankan businesses. We focus on clean execution, fast support, and measurable growth.",
+    "stats": [
+      { "label": "Years Experience", "value": "10+" },
+      { "label": "Deployments", "value": "100+" },
+      { "label": "Support", "value": "24/7" }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Kasun Perera",
+      "role": "Director, Luxe Retail",
+      "message": "VLR kept our POS running smoothly during peak hours. Support is quick and reliable."
+    },
+    {
+      "name": "Amaya Rodrigo",
+      "role": "CEO, Meridian Group",
+      "message": "The website and portal look premium and work flawlessly across all branches."
+    },
+    {
+      "name": "Nimal Silva",
+      "role": "Founder, Cafe Noir",
+      "message": "We finally have secure systems and fast support we can trust, islandwide."
+    }
+  ],
+  "footer": {
+    "copyrightText": "© 2026 VLR IT Solutions. All rights reserved."
+  }
+}

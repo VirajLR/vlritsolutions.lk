@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VLR IT Solutions Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/admin.css" />
+    <script src="js/admin.js" defer></script>
+  </head>
+  <body>
+    <div class="login" id="login-screen">
+      <form class="login-card" id="login-form">
+        <h1>VLR Admin</h1>
+        <p>Secure access to your site settings.</p>
+        <label>
+          Username
+          <input type="text" name="username" required placeholder="admin" />
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" required placeholder="••••••••" />
+        </label>
+        <button class="btn primary" type="submit">Login</button>
+        <div class="login-error" id="login-error" role="status"></div>
+      </form>
+    </div>
+
+    <div class="admin" id="admin-dashboard" hidden>
+      <header class="admin-header">
+        <div>
+          <h2>VLR IT Solutions Admin</h2>
+          <p>Update content, settings, and preview changes instantly.</p>
+        </div>
+        <div class="admin-actions">
+          <button class="btn ghost" type="button" id="preview-btn">Preview Website</button>
+          <button class="btn ghost" type="button" id="reset-btn">Reset to Default</button>
+          <button class="btn ghost" type="button" id="import-btn">Import JSON</button>
+          <button class="btn ghost" type="button" id="export-btn">Export JSON</button>
+          <button class="btn primary" type="button" id="save-btn">Save Changes</button>
+          <input type="file" id="import-file" accept="application/json" hidden />
+        </div>
+      </header>
+
+      <div class="admin-layout">
+        <aside class="admin-tabs" role="tablist">
+          <button class="tab active" data-tab="contact" type="button">Contact & Social</button>
+          <button class="tab" data-tab="hero" type="button">Hero</button>
+          <button class="tab" data-tab="services" type="button">Services</button>
+          <button class="tab" data-tab="solutions" type="button">Solutions</button>
+          <button class="tab" data-tab="projects" type="button">Projects</button>
+          <button class="tab" data-tab="about" type="button">About</button>
+          <button class="tab" data-tab="testimonials" type="button">Testimonials</button>
+          <button class="tab" data-tab="images" type="button">Images</button>
+        </aside>
+
+        <section class="admin-content">
+          <div class="tab-panel active" data-panel="contact"></div>
+          <div class="tab-panel" data-panel="hero"></div>
+          <div class="tab-panel" data-panel="services"></div>
+          <div class="tab-panel" data-panel="solutions"></div>
+          <div class="tab-panel" data-panel="projects"></div>
+          <div class="tab-panel" data-panel="about"></div>
+          <div class="tab-panel" data-panel="testimonials"></div>
+          <div class="tab-panel" data-panel="images"></div>
+        </section>
+      </div>
+    </div>
+
+    <div class="toast" id="admin-toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

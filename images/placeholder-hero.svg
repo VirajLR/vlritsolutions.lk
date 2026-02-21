@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2117" />
+      <stop offset="1" stop-color="#25ff86" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" />
+  <circle cx="960" cy="140" r="120" fill="#030a07" fill-opacity="0.35" />
+  <circle cx="220" cy="620" r="160" fill="#0f2a1a" fill-opacity="0.6" />
+  <text x="50%" y="48%" text-anchor="middle" dominant-baseline="middle" fill="#e8fff2" font-family="Arial, sans-serif" font-size="52">VLR IT Solutions</text>
+  <text x="50%" y="57%" text-anchor="middle" dominant-baseline="middle" fill="#b5d7c4" font-family="Arial, sans-serif" font-size="26">Placeholder Image</text>
+</svg>
